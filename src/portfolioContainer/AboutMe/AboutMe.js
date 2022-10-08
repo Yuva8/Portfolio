@@ -14,7 +14,7 @@ function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Full stack web with background knowledge of MERN stacks, along with a knack of building applications with utmost efficiency. Strong professional with a willing to be an asset for an organization.",
+      "Strong in design and integration with intuitive problem-solving skills. I Have developed 4 Full Stack Projects and Completed more than 50 task in HTML, CSS, JAVASCRIPT & MERN STACK placed in Github-repo. able to translate business requirement into technical solutions. Looking to start a career as an entry-level software engineer.",
     highlights: {
       bullets: [
         "Full Stact Web development",
