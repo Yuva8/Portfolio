@@ -14,7 +14,7 @@ function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Strong in design and integration with intuitive problem-solving skills. I Have developed 4 Full Stack Projects and Completed more than 50 task in HTML, CSS, JAVASCRIPT & MERN STACK placed in Github-repo. able to translate business requirement into technical solutions. Looking to start a career as an entry-level software engineer.",
+      "Full stack web with background knowledge of MERN stacks, along with a knack of building applications with utmost efficiency. Strong professional with a willing to be an asset for an organization.",
     highlights: {
       bullets: [
         "Full Stact Web development",
@@ -59,7 +59,11 @@ function AboutMe(props) {
               >
                 Hire Me
               </button>
-              <a href="Resume.pdf" download="Yuvaraj Resume.pdf">
+              <a
+                href="https://drive.google.com/file/d/0B1xro_MYx6lka3ktYmhwTmZ4emFtVTNHcEh3aF9lcEpxdk80/view?resourcekey=0-kSBjKjo2andjYXlt7o5sfA"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
