@@ -75,6 +75,40 @@ export default function ContactMe(props) {
 
                 <div className="box">
                   <div className="icon">
+                    <i className="fa fa-github"></i>
+                  </div>
+                  <div className="text">
+                    <h3>Github</h3>
+                    <a
+                      href="https://github.com/Yuva8"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ textdecoration: "none", color: "white" }}
+                    >
+                      https://github.com/Yuva8
+                    </a>
+                  </div>
+                </div>
+
+                <div className="box">
+                  <div className="icon">
+                    <i className="fa fa-linkedin"></i>
+                  </div>
+                  <div className="text">
+                    <h3>LinkedIn</h3>
+                    <a
+                      href="https://www.linkedin.com/in/yuvaraj-m-52604215b/"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ textdecoration: "none", color: "white" }}
+                    >
+                      https://www.linkedin.com/in/yuvaraj-m-52604215b/
+                    </a>
+                  </div>
+                </div>
+
+                <div className="box">
+                  <div className="icon">
                     <i className="fa fa-envelope"></i>
                   </div>
                   <div className="text">
