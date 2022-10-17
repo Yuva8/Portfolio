@@ -72,7 +72,11 @@ export default function Profile() {
             >
               Hire Me
             </button>
-            <a href="Resume.pdf" download="Yuvaraj Resume.pdf">
+            <a
+              href="https://drive.google.com/file/d/0B1xro_MYx6lka3ktYmhwTmZ4emFtVTNHcEh3aF9lcEpxdk80/view?usp=sharing&resourcekey=0-kSBjKjo2andjYXlt7o5sfA"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button class="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

@@ -7,7 +7,7 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import video from "../../assets/Projects/Video-App.png";
 import notes from "../../assets/Projects/Notes-app.1.png";
 import memories from "../../assets/Projects/Memories-App.1.png";
-import shoppingcart from "../../assets/Projects/Shopping Cart.png";
+import shoppingcart from "../../assets/Projects/Ecommerce.1.png";
 import cinetrack from "../../assets/Projects/Cine-Track.png";
 
 function Projects(props) {
@@ -20,12 +20,15 @@ function Projects(props) {
         />
         {/* <Particle /> */}
         <Container fluid className="project-section">
-          {/* <h1 className="project-heading" style={{ textAlign: "center" }}>
-            My Recent <strong className="purple">Works </strong>
-          </h1>
           <p style={{ color: "black", textAlign: "center" }}>
-            Here are a few projects I've worked on recently.
-          </p> */}
+            <span>
+              <b>Demo Id:</b> yuvi@gmail.com & Password: 1234
+            </span>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>
+              <b>Admin Id:</b> admin@gmail.com & Password: 1234
+            </span>
+          </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
@@ -37,8 +40,6 @@ function Projects(props) {
                 link="https://github.com/Yuva8/Videoapp-backend"
                 view="https://effortless-pithivier-18410c.netlify.app/signIn"
                 tech="ReactJS,Bootstrap,Nodejs,ExpressJS,MongoDB"
-                id="yuvi@gmail.com"
-                password="1234"
               />
             </Col>
 
@@ -52,8 +53,6 @@ function Projects(props) {
                 link="https://github.com/Yuva8/NotesApp-Backend"
                 view="https://roaring-faloodeh-ccdfde.netlify.app/"
                 tech="ReactJs,MaterialUI,Reactredux,NodeJS,ExpressJS,MongoDB"
-                id="yuvi@gmail.com"
-                password="1234"
               />
             </Col>
 
@@ -67,8 +66,6 @@ function Projects(props) {
                 link="https://github.com/Yuva8/Memories-Backend"
                 view="https://incredible-paprenjak-e993fb.netlify.app/"
                 tech="ReactJS,MaterialUI,Reactredux,NodeJS,ExpressJS,MongoDB"
-                id="yuvi@gmail.com"
-                password="1234"
               />
             </Col>
 
@@ -77,11 +74,11 @@ function Projects(props) {
                 imgPath={shoppingcart}
                 isBlog={false}
                 title="Shopping-Cart"
-                description="This Application used to View Products in Database and also having features like add to cart,Viewing Single Product in Detail,also Product data is persist in local storage."
-                links="https://github.com/Yuva8/Shopping_Cart_Frontend"
-                link="https://github.com/Yuva8/Shopping_Cart_Backend"
-                view="https://splendorous-brioche-9fe6e6.netlify.app/"
-                tech="ReactJS,MaterialUI,Reactredux,NodeJS,ExpressJS,MongoDB"
+                description="E-Commerce app having features like admin side used to perform CURD operation for product model, payment integration done using strip, socket.io used to show notification in admin & user side,also Persist Cart-Info and User-Info in Local Storage."
+                links="https://github.com/Yuva8/Ecommerce_frontend"
+                link="https://github.com/Yuva8/Ecommerce_backend"
+                view="https://stirring-pony-a11814.netlify.app/"
+                tech="ReactJS,MaterialUI,Reactredux,NodeJS,ExpressJS,MongoDB,Strip,Socket.io"
               />
             </Col>
 

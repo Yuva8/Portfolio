@@ -41,12 +41,12 @@ function Resume(props) {
 
   const resumeBullets = [
     { label: "Education", className: "fa fa-graduation-cap" },
-    { label: "Programming Skills", className: "fa fa-code" },
+    { label: "Technical Skills", className: "fa fa-code" },
     { label: "Projects", className: "fa fa-bar-chart" },
     { label: "Interests", className: "fa fa-heart" },
   ];
 
-  const programmingSkillDetails = [
+  const TechnicalSkillDetails = [
     { skill: "Javascript", ratingPercentage: 75 },
     { skill: "React Js", ratingPercentage: 75 },
     { skill: "Express Js", ratingPercentage: 70 },
@@ -54,12 +54,13 @@ function Resume(props) {
     { skill: "Mongo DB", ratingPercentage: 75 },
     { skill: "HTML", ratingPercentage: 75 },
     { skill: "CSS", ratingPercentage: 75 },
+    { skill: "SQL", ratingPercentage: 75 },
   ];
 
   const projectDetails = [
     {
       title: "Video streaming App",
-      duration: { fromDate: "2021", toDate: "2022" },
+      duration: {},
       description:
         "A Video streaming application with video upload and stream features.",
       subHeading:
@@ -68,7 +69,7 @@ function Resume(props) {
     {
       title: "Notes-App",
 
-      duration: { fromDate: "2021", toDate: "2022" },
+      duration: {},
       description:
         "Notes Taking Web application used to Create,Edit,Delete a note for personal use and we can able to View the notes after stored in Database.",
       subHeading:
@@ -77,7 +78,7 @@ function Resume(props) {
     {
       title: "Memories-App",
 
-      duration: { fromDate: "2021", toDate: "2022" },
+      duration: {},
       description:
         "A web application where users can post a pic and share their memories with Others. also able to Edit and Delete the post Which has been Created by the same user.",
       subHeading:
@@ -85,9 +86,9 @@ function Resume(props) {
     },
     {
       title: "Shopping-Cart",
-      duration: { fromDate: "2021", toDate: "2022" },
+      duration: {},
       description:
-        "This Application used to View Products in Database and also having features like add to cart,Viewing Single Product in Detail,also Product data is persist in local storage.",
+        "Ecommerce app having features like admin side used to perform CURD operation for product model,payment integration done using strip,socket.io used to show notification in admin & user side,also some common features.",
       subHeading:
         "Technologies used: React JS,React-redux,Node JS,Express JS,MongoDB",
     },
@@ -118,7 +119,7 @@ function Resume(props) {
       className="resume-screen-container programming-skills-container"
       key="programming-skills"
     >
-      {programmingSkillDetails.map((skill, index) => (
+      {TechnicalSkillDetails.map((skill, index) => (
         <div className="skill-parent" key={index}>
           <div className="heading-bullet"></div>
           <span>{skill.skill}</span>
@@ -153,11 +154,11 @@ function Resume(props) {
       />
       <ResumeHeading
         heading="Sports"
-        description="Watching or being responsible for Communicating and reconciling team disputes in divisional-level Football competition and VolleyBall"
+        description="Watching or being responsible for Communicating and reconciling team disputes in zonal-level Cricket competition."
       />
       <ResumeHeading
         heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        description="I like to challenge my reflexes a lot while competing in cricket games, pushing the rank and having interactive gaming sessions excites me the most."
       />
     </div>,
   ];
