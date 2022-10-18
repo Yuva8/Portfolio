@@ -113,7 +113,7 @@ export default function ContactMe(props) {
                   </div>
                   <div className="text">
                     <h3>Email</h3>
-                    <p>yuvarajgv@gmail.com</p>
+                    <p>yuvarajgv0129@gmail.com</p>
                   </div>
                 </div>
               </div>
