@@ -32,14 +32,14 @@ function Projects(props) {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={video}
+                imgPath={shoppingcart}
                 isBlog={false}
-                title="Video streaming App"
-                description="A Video streaming application with video upload and stream features, user authentication is done with help of JSON web token(JWT)."
-                links="https://github.com/Yuva8/Videoapp-frontend"
-                link="https://github.com/Yuva8/Videoapp-backend"
-                view="https://effortless-pithivier-18410c.netlify.app/signIn"
-                tech="ReactJS,Bootstrap,Nodejs,ExpressJS,MongoDB"
+                title="Shopping-Cart"
+                description="E-Commerce app having features like admin side used to perform CURD operation for product model, payment integration done using strip, socket.io used to show notification in admin & user side,also Persist Cart-Info and User-Info in Local Storage."
+                links="https://github.com/Yuva8/Ecommerce_frontend"
+                link="https://github.com/Yuva8/Ecommerce_backend"
+                view="https://stirring-pony-a11814.netlify.app/"
+                tech="ReactJS,MaterialUI,Reactredux,NodeJS,ExpressJS,MongoDB,Strip,Socket.io"
               />
             </Col>
 
@@ -71,14 +71,14 @@ function Projects(props) {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={shoppingcart}
+                imgPath={video}
                 isBlog={false}
-                title="Shopping-Cart"
-                description="E-Commerce app having features like admin side used to perform CURD operation for product model, payment integration done using strip, socket.io used to show notification in admin & user side,also Persist Cart-Info and User-Info in Local Storage."
-                links="https://github.com/Yuva8/Ecommerce_frontend"
-                link="https://github.com/Yuva8/Ecommerce_backend"
-                view="https://stirring-pony-a11814.netlify.app/"
-                tech="ReactJS,MaterialUI,Reactredux,NodeJS,ExpressJS,MongoDB,Strip,Socket.io"
+                title="Video streaming App"
+                description="A Video streaming application with video upload and stream features, user authentication is done with help of JSON web token(JWT)."
+                links="https://github.com/Yuva8/Videoapp-frontend"
+                link="https://github.com/Yuva8/Videoapp-backend"
+                view="https://effortless-pithivier-18410c.netlify.app/signIn"
+                tech="ReactJS,Bootstrap,Nodejs,ExpressJS,MongoDB"
               />
             </Col>
 
