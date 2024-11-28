@@ -13,16 +13,16 @@ function AboutMe(props) {
   //   ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
   const SCREEN_CONSTANTS = {
-    description:
-      "Full stack web with background knowledge of MERN stacks, along with a knack of building applications with utmost efficiency. Strong professional with a willing to be an asset for an organization.",
+    description: `Results-oriented Frontend Developer with 3 years of professional experience in designing and developing scalable, user-friendly web applications using React, Angular, HTML, CSS, and JavaScript. Expertise in integrating third-party APIs, improving UI/UX design, and creating responsive, SEO- optimized solutions. Proven track record in delivering projects for fintech, corporate websites, and marketing campaigns.`,
     highlights: {
       bullets: [
-        "Full Stact Web development",
-        "Interactive Front End",
-        "JWT Authentication",
-        "Managing Database",
-        "Protected Routes",
+        "React js and Angular",
+        "Javascript(ES6+) and Typescript",
+        "Bootstrap / Material-UI / Tailwind css",
+        "Managing Database(SQL,Mongo Db)",
+        "API Integration ( IDFY,Score me)",
         "React Redux",
+        "node js, Express",
       ],
       heading: "Here are a Few Highlights:",
     },
@@ -60,7 +60,7 @@ function AboutMe(props) {
                 Hire Me
               </button>
               <a
-                href="https://drive.google.com/file/d/0B1xro_MYx6lka3ktYmhwTmZ4emFtVTNHcEh3aF9lcEpxdk80/view?resourcekey=0-kSBjKjo2andjYXlt7o5sfA"
+                href="https://drive.google.com/file/d/1VM6auRlg-pIPqSp6b8HlDk2Rbtf-bB-e/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >

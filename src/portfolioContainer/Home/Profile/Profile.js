@@ -29,7 +29,7 @@ export default function Profile() {
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
-              Hi, I'm <span className="highlighted-text">Yuvaraj m</span>
+              Hi, I'm <span className="highlighted-text">Yuvaraj M</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -40,7 +40,7 @@ export default function Profile() {
                   steps={[
                     "Enthusiastic Dev 📈",
                     1500,
-                    "Full Stack Developer 💻",
+                    "Front End Developer 💻",
                     1500,
                     "MERN Stack Dev 💼",
                     1500,
@@ -73,7 +73,7 @@ export default function Profile() {
               Hire Me
             </button>
             <a
-              href="https://drive.google.com/file/d/0B1xro_MYx6lka3ktYmhwTmZ4emFtVTNHcEh3aF9lcEpxdk80/view?usp=sharing&resourcekey=0-kSBjKjo2andjYXlt7o5sfA"
+              href="https://drive.google.com/file/d/1VM6auRlg-pIPqSp6b8HlDk2Rbtf-bB-e/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

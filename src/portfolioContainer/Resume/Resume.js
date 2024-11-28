@@ -48,12 +48,15 @@ function Resume(props) {
 
   const TechnicalSkillDetails = [
     { skill: "Javascript", ratingPercentage: 75 },
+    { skill: "Typescript", ratingPercentage: 70 },
     { skill: "React Js", ratingPercentage: 75 },
+    { skill: "Angular", ratingPercentage: 80 },
+    { skill: "Redux", ratingPercentage: 65 },
     { skill: "Express Js", ratingPercentage: 70 },
     { skill: "Node Js", ratingPercentage: 70 },
     { skill: "Mongo DB", ratingPercentage: 75 },
-    { skill: "HTML", ratingPercentage: 75 },
-    { skill: "CSS", ratingPercentage: 75 },
+    { skill: "HTML5", ratingPercentage: 75 },
+    { skill: "Bootstrap / Tailwind CSS", ratingPercentage: 75 },
     { skill: "SQL", ratingPercentage: 75 },
   ];
 
@@ -100,7 +103,7 @@ function Resume(props) {
         heading={"Full Stack Developer"}
         subHeading={"Guvi Geek PVT LTD"}
         fromDate={"dec(2021)"}
-        toDate={"present"}
+        toDate={"dec(2022)"}
       />
       <ResumeHeading
         heading={"BACHELOR OF ENGG IN MECHANICAL"}
