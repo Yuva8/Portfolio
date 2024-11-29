@@ -73,7 +73,7 @@ export default function Profile() {
               Hire Me
             </button>
             <a
-              href="https://drive.google.com/file/d/1VM6auRlg-pIPqSp6b8HlDk2Rbtf-bB-e/view?usp=sharing"
+              href="https://drive.google.com/file/d/1zo8c2bIRUztSZVD5ZitAqOhkuMPoJLbh/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
